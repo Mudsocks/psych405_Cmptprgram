@@ -1,7 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 19 09:38:10 2022
+#Print Exercises 
 
-@author: ahmed
-"""
-
+#1
+print('A')
+print('h')
+print('m')
+print('e')
+print('d')
+#2 Yes, the variables of my name showed up one letter at a time

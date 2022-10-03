@@ -8,16 +8,19 @@ Created on Sun Oct  2 19:47:23 2022
 # Python Tutorial: Level 1 Exercises
 
 # Variable Operation Exercises
+
 # 1
 sub_code= 'sub'
 subnr_int= 2
 subnr_str= '2'
+
 # 2
 print(sub_code + " " + subnr_str)
 print(sub_code + " " + subnr_str*3)
 print((sub_code+subnr_str)*3)
 print((sub_code*3)+(subnr_str*3))
-#the (str) form of subnr can only be added to sub_code to get sub2 because you are adding to strings. subnr_int represents 2 as numerical data which can then perform mathematical operations
+
+# the (str) form of subnr can only be added to sub_code to get sub2 because you are adding to strings. subnr_int represents 2 as numerical data which can then perform mathematical operations
 
 
 # List Operation Exercises
@@ -31,7 +34,8 @@ print(numlist*2)
 import numpy as np
 numarr=np.array([1,2,3])
 print(numarr*2)
-#Multiplying a list would simply repeat that same list(side by side) by the number being multiplied. While multiplying an array would multiply that number by each numerical value in the array
+
+# Multiplying a list would simply repeat that same list(side by side) by the number being multiplied. While multiplying an array would multiply that number by each numerical value in the array
 
 # 3
 strlist= (['do','re','mi', 'fa'])

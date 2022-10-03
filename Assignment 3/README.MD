@@ -5,14 +5,14 @@ Created on Sun Oct  2 19:47:23 2022
 @author: ahmed
 """
 
-#Python Tutorial: Level 1 Exercises
+# Python Tutorial: Level 1 Exercises
 
-#Variable Operation Exercises
-#1
+# Variable Operation Exercises
+# 1
 sub_code= 'sub'
 subnr_int= 2
 subnr_str= '2'
-#2
+# 2
 print(sub_code + " " + subnr_str)
 print(sub_code + " " + subnr_str*3)
 print((sub_code+subnr_str)*3)
@@ -20,20 +20,20 @@ print((sub_code*3)+(subnr_str*3))
 #the (str) form of subnr can only be added to sub_code to get sub2 because you are adding to strings. subnr_int represents 2 as numerical data which can then perform mathematical operations
 
 
-#List Operation Exercises
+# List Operation Exercises
 
 
-#1
+# 1
 numlist= [1,2,3]
 print(numlist*2)
 
-#2
+# 2
 import numpy as np
 numarr=np.array([1,2,3])
 print(numarr*2)
 #Multiplying a list would simply repeat that same list(side by side) by the number being multiplied. While multiplying an array would multiply that number by each numerical value in the array
 
-#3
+# 3
 strlist= (['do','re','mi', 'fa'])
 
 print([strlist[0]*2] + [strlist[1]*2] + [strlist[2]*2] + [strlist[3]*2])
@@ -48,9 +48,9 @@ print([strlist[0:1]*2, strlist[1:2]*2, strlist[2:3]*2, strlist[3:4]*2])
 #[['do','do'],['re','re'],['mi','mi'],['fa','fa']]
 
 
-#Zipping Exercises
+# Zipping Exercises
 
-#1
+# 1
 
 import numpy as np
 first_list = []
@@ -77,20 +77,20 @@ np.random.shuffle(catimgs)
 print(catimgs)
 
 
-#indexing Exercises
+# indexing Exercises
 
-#1
+# 1
 
 colors= ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 
-#2
+# 2
 print(colors[-1])
 
 
-#3
+# 3
 print(colors[-3:-5:-1])
     
-#4
+# 4
 colors.remove('purple')
 colors.append('indigo')
 colors.append('violet')

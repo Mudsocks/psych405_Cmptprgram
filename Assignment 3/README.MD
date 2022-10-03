@@ -99,3 +99,12 @@ colors.remove('purple')
 colors.append('indigo')
 colors.append('violet')
 print(colors)
+
+
+# Slicing Exercises
+
+list100= list(range(0,101))
+print(list100)
+print(list100[:10])
+print(list100[1:101:2][::-1])
+print(list100[97:101][::-1])

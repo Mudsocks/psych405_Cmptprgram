@@ -114,7 +114,7 @@ while not correct_resp:
     imput_resp = random.randint(0,10)
     if imput_resp == 1 or imput_resp == 2:
         correct_resp = True
-    break
+      break
 	
     failsafe = failsafe + 1
     if failsafe == 5:
